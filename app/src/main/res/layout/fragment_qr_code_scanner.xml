@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data />
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flashButtonVisible="false"
+        app:autoFocusButtonVisible="false"
+        app:frameColor="@android:color/holo_blue_light"
+        app:frameCornersSize="60dp"
+        app:frameCornersRadius="20dp"
+        app:frameAspectRatioWidth="1"
+        app:frameAspectRatioHeight="1"
+        app:frameSize="0.75"
+        app:frameThickness="5dp"
+        app:maskColor="#77000000"/>
+</FrameLayout>
+</layout>
